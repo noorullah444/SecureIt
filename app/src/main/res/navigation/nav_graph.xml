@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.tetralogex.secureit.presentation.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_intruderFragment"
+            app:destination="@id/intruderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/intruderFragment"
+        android:name="com.tetralogex.secureit.presentation.fragments.IntruderFragment"
+        android:label="Intruder Alert"
+        tools:layout="@layout/fragment_intruder" >
+        <action
+            android:id="@+id/action_intruderFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_intruderFragment_to_intruderSelfieFragment"
+            app:destination="@id/intruderSelfieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.tetralogex.secureit.presentation.fragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/intruderSelfieFragment"
+        android:name="com.tetralogex.secureit.presentation.fragments.IntruderSelfieFragment"
+        android:label="Intruder Selfies"
+        tools:layout="@layout/fragment_intruder_selfie" />
+</navigation>
