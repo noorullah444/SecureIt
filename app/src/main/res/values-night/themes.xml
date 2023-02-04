@@ -16,7 +16,7 @@
 
     <style name="SwitchStyle">
         <item name="colorControlActivated">@color/purple_500</item>  <!-- active thumb &track color  -->
-        <item name="colorSwitchThumbNormal">@color/color_grey</item> <!-- inactive thumb color -->
-        <item name="android:colorForeground">@color/color_grey</item><!-- inactive track color -->
+        <item name="colorSwitchThumbNormal">@color/colorDivider</item> <!-- inactive thumb color -->
+        <item name="android:colorForeground">@color/colorDivider</item><!-- inactive track color -->
     </style>
 </resources>

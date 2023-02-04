@@ -3,19 +3,6 @@ package com.tetralogex.secureit.core.utils
 import android.os.Build
 
 object VersionUtils {
-    /**
-     * @return true if device is running API >= 23
-     */
-    fun hasMarshmallow(): Boolean {
-        return Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
-    }
-
-    /**
-     * @return true if device is running API >= 24
-     */
-    fun hasNougat(): Boolean {
-        return Build.VERSION.SDK_INT >= Build.VERSION_CODES.N
-    }
 
     /**
      * @return true if device is running API >= 25

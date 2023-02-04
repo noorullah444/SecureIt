@@ -4,7 +4,26 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="intruder_alert">Intruder Alert</string>
     <string name="settings">Settings</string>
-    <string name="failed_attempt_summary">Failed Attempt Count: 2</string>
+    <string name="failed_attempt_summary">Wrong PIN or Pattern Attempts: 2</string>
     <string name="email_hint">Email</string>
     <string name="save">Save</string>
+    <string name="intruders">Intruders</string>
+    <string name="disabled">Disabled</string>
+    <string name="email_info">Email will be sent to this email address:</string>
+    <string name="enable_alarm">Enable Alarm</string>
+    <string name="email_intruder_selfie">Email Intruder Selfie</string>
+    <string name="email_intruder_location">Email Intruder Location</string>
+    <string name="intruder_alert_info">Intruder Alert will be activated after number of wrong PIN or Pattern attempts reached the count you set below.</string>
+    <string name="alarm_tone">Alarm Tone</string>
+    <string name="emergency_siren">Emergency Siren</string>
+    <string name="pin_code">PIN Code</string>
+    <string name="pin_code_info">This PIN code will be required to stop alarm when any intruder try to breach your phone security.</string>
+    <string name="pin_code_summary">Enter your own 4 digits PIN:</string>
+    <string name="pin_hint">PIN</string>
+    <string name="theme">Select Theme</string>
+    <string name="light_mode">Light mode</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="cancel">Cancel</string>
+    <string name="allow_permission_text">Allow permission</string>
+    <string name="permanently_denied_message">You have permanently denied Location permission. Turn it on from Settings.</string>
 </resources>
